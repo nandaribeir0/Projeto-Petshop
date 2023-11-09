@@ -46,11 +46,25 @@ nav a {
 nav a:hover {
     color: #6dd432;
 }
-
+form {
+    width: 380px;
+}
+form input,
+form textarea {
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 #itemContato {
     background-image: none;
     padding-right: 0px;
     margin-left: 0px;
+}
+
+iframe {
+    width: 100%;
 }
 
 /* Especificos #id */
@@ -111,4 +125,15 @@ nav a:hover {
 
 #produto .flex-container {
     margin-top: 43px;
+}
+#contato .flex-container {
+    margin-top: 43px;
+}
+
+footer {
+    text-align: center;
+    font-size: 90%;
+    color: #000;
+    padding-top: 5%;
+    
 }
